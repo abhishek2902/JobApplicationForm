@@ -1,0 +1,87 @@
+*{
+border: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: rgb(204 204 204);
+}
+
+.container{
+width: 100vw;
+height: 100vh;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+margin: 0 auto;
+}
+/*  */
+.insidecontainer{
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    max-width: 600px;
+    border-radius: 15px;  
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.5); 
+    padding: 20px;
+}
+
+/* form */
+.heading{
+    padding-bottom: 20px;
+}
+.mainsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.boxx{
+    padding: 10px 0px;
+}
+
+#name,#lname,#email,#job,#city,#pincode,#date,#resume,#submit{
+    border: 1px solid rgb(129, 128, 128);
+    border-radius: 2px;
+    height: 35px;
+    min-width: 250px;
+    padding: 4px ;
+}
+#resume{
+    width: 220px;
+}
+#addr{
+    border: 1px solid rgb(129, 128, 128);
+    border-radius: 2px;
+    height: 50px;
+    width: 100%;
+    padding: 4px ;
+}
+.add {
+    width: 100%;    
+}
+
+.apply{
+    width: 90px;
+    height: 28px;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    float: right;
+}
+.appl{
+    /* margin-top: 10px; */
+    margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+    .boxx{
+        width:100%;
+    }
+    #name,#lname,#email,#job,#city,#pincode,#date,#resume,#submit{
+        border: 1px solid rgb(129, 128, 128);
+        border-radius: 2px;
+        height: 30px;
+        width: 100%;  
+    }
+};

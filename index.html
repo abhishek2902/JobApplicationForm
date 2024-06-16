@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body >
+    <div class="container">
+
+        <div class="insidecontainer">
+
+            <h1 class="heading">Job Applicatin</h1>
+
+            <form action="#" autocomplete="on">
+                
+            <div class="mainsection">
+
+            <div class="boxx"><label for="name">First Name</label> <br>                      
+            <input type="text" name="name" id="name" placeholder="ex:Hari" required></div>
+
+            <div class="boxx"><label for="lname">Last Name</label> <br>                      
+            <input type="text" name="lname" id="lname" placeholder="ex:Yadav" required></div>
+
+            <div class="boxx"><label for="email">Email</label> <br>                      
+            <input type="email" name="email" id="email" placeholder="ex:xyz@email.com" required></div>
+
+            <div class="boxx"><label for="job">Job Role</label> <br>
+                <select name="job" id="job" form="jobform">
+                    <option value="web">Web Designer</option>
+                    <option value="net">.Net Developer</option>
+                    <option value="java">Java Developer</option>
+                    <option value="mern">Mern stack</option>
+                </select></div>
+
+            <div class="add" class="boxx"> <label for="addr">Address</label> <br>                      
+            <textarea name="addr" id="addr" rows="10" cols="20" placeholder="ex:Amarpeet" required> </textarea> </div>  
+
+            <div class="boxx"><label for="city" >City</label><br>                      
+            <input type="text" name="city" id="city" placeholder="ex:Satna" required></div>
+
+            <div class="boxx"><label for="pincode">Pincode</label><br>                      
+            <input type="number" name="pincode" id="pincode" placeholder="ex:486001" required></div>
+
+            <div class="boxx"><label for="date">Date</label><br>                      
+            <input type="date" name="date" id="date" required></div>
+
+            <div class="boxx"><label for="resume">Upload your Resume</label><br>                      
+            <input type="file" name=resume" id="resume" required></div>
+            
+            </div>
+            
+            <div class="appl">
+            <input class="apply" type="submit" value="Apply Now">
+            </div>
+
+            </form>
+
+
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>
